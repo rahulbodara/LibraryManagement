@@ -1,0 +1,16 @@
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
+
+https://sgino209.medium.com/django-sqlite-docker-in-local-production-d082a7044af1
+
+
+----> sudo docker-compose up ====>Now try to launch services with docker compose
+
+---->docker container ls / docker ps======>show all container
+
+---->docker stop <container-id> =====> stop container
+
+----->sudo chown -R 1000:1000 ./data ====>Permission issue with PostgreSQL in docker container
+
+----->docker-compose exec web python manage.py makemigrations ----> execute django command
+
+----->docker exec -it librarymanagement_web_1 sh =====> move into perticular docker conatiner
