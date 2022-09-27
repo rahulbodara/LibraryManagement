@@ -1,0 +1,19 @@
+rb.globalia@gmail.com	global23#
+
+TOKEN: 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
+
+-----> git clone https://github.com/rahulbodara/LibraryManagement.git 
+
+-----> cd LibraryManagement/
+      -copy your project
+      
+-----> git add .
+
+-----> git commit -m "your commit"
+
+-----> git push origin main
+      -if user name and password not wrok create token (settings/ developer setting/ personal access token/ generate new token)
+
+-----> git status
+
+-----> git pull origin branch_name
